@@ -1,0 +1,30 @@
+# Documents (challenge brief etc.) - never push
+*.docx
+*.doc
+*.pdf
+
+# Secrets / local config
+.env
+.env.*
+!.env.example
+
+# Dependencies and build output
+node_modules/
+dist/
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Deployment / tooling
+.vercel/
+*.log
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
